@@ -1,0 +1,75 @@
+.first-nav
+{
+    padding: 20px;
+    text-align: end;
+    background-color: black;
+    color: white;
+}
+
+.flex-between
+{
+    justify-content: space-between;
+}
+
+.button-second-nav
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(41, 37, 37);
+    color: white;
+    border: none;
+}
+
+.second-nav li> i 
+{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.dropdown-toggle:hover .dropdown-menu
+{
+    display: inline-block;
+}
+
+/* main section 1 */
+.first-section
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+
+}
+.sfondo-1
+{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.testo-first-section
+{
+    color: white;
+}
+
+.button-first-section
+{
+    color: white;
+    padding: 10px 15px;
+    background-color: tomato;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.first-section img
+{
+    padding-bottom: 20px;
+}
+
+.testo-first-section h1
+{
+    padding-bottom: 20px;
+}
+
