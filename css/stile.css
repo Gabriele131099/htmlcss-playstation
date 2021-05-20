@@ -6,6 +6,9 @@
     color: white;
 }
 
+.first-nav svg{
+    width: 100px;
+}
 .flex-between
 {
     justify-content: space-between;
@@ -35,16 +38,16 @@
 .first-section
 {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 50px;
+    left: 30px;
     width: 300px;
 
 }
 .sfondo-1
 {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
     background-size: cover;
+    background-position: center;
     height: 600px;
     position: relative;
 }
@@ -65,11 +68,64 @@
 
 .first-section img
 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.testo-first-section h1
+.testo-first-section h1, .testo-first-section p
 {
     padding-bottom: 20px;
 }
+
+/* 6 colonne sotto main section first */
+
+figure img
+{
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/* first article */
+.first-article
+{
+    padding: 100px 0px;
+    text-align: center;
+    
+}
+
+.first-article h1
+{
+    padding-bottom: 50px;
+}
+
+.first-article a
+{
+    text-decoration: none;
+}
+
+/* second section  */
+
+.second-section
+{
+    align-items: center;
+    text-align: center;
+}
+
+
+.second-section img
+{
+    width: 100%;
+}
+/* terza-section */
+.third-section .col
+ {
+     padding: 50px;
+     text-align: center;
+ }
+.row .col img
+{
+    width: 100%;
+}
+
+
 
