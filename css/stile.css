@@ -1,3 +1,4 @@
+
 .first-nav
 {
     padding: 20px;
@@ -48,7 +49,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
     position: relative;
 }
 
@@ -116,16 +117,64 @@ figure img
 {
     width: 100%;
 }
+
+.second-section button
+{
+    border-radius: 50px;
+
+}
 /* terza-section */
 .third-section .col
- {
+{
      padding: 50px;
      text-align: center;
- }
+     opacity: 0.5;
+}
+.third-section .col:last-child
+{
+    
+     opacity: 1;
+}
+
 .row .col img
 {
     width: 100%;
 }
 
+.blue-hr
+{
+    border: 2px solid navy;
+    opacity: 1;
+}
 
+/* second article main */
+.second-article 
+{
+    padding: 50px;
+    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+.second-article div
+{
+    color: white;
+    width: 200px;
+}
 
+.second-article  button
+{
+    color: white;
+    padding: 10px 15px;
+    background-color: tomato;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.second-article img
+{
+    padding-bottom: 30px;
+}
+
+.second-article h1, .second-article p
+{
+    padding-bottom: 20px;
+}
