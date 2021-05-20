@@ -1,4 +1,9 @@
-
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .first-nav
 {
     padding: 20px;
@@ -104,6 +109,13 @@ figure img
     text-decoration: none;
 }
 
+.first-article p
+{
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+}
+
 /* second section  */
 
 .second-section
@@ -121,6 +133,10 @@ figure img
 .second-section button
 {
     border-radius: 50px;
+    padding: 10px 15px;
+    background-color: rgb(76, 76, 172);
+    color: white;
+    border: none;
 
 }
 /* terza-section */
@@ -130,19 +146,22 @@ figure img
      text-align: center;
      opacity: 0.5;
 }
-.third-section .col:last-child
-{
-    
-     opacity: 1;
-}
-
 .row .col img
 {
     width: 100%;
 }
+.third-section .col:hover
+{
+     opacity: 1;
+}
 
+.third-section .col:hover .blue-hr
+{
+    display: block;
+}
 .blue-hr
 {
+    display: none;
     border: 2px solid navy;
     opacity: 1;
 }
@@ -178,3 +197,37 @@ figure img
 {
     padding-bottom: 20px;
 }
+
+
+.flex-wrap
+{
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+/* four section main */
+.four-section
+{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.four-section .col
+{
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.four-section img
+{
+    width: 100%;
+    border-radius: 30px;
+}
+.four-section .row
+{
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0%;
+}
+
+/*  */
