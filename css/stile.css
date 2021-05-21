@@ -88,8 +88,14 @@ figure img
 {
     width: 100%;
     border-radius: 50px;
-    margin-top: 20px;
+    margin: 15px 0px;
+    border: 2px solid transparent;
 }
+figure img:hover
+{
+    border:2px solid lightskyblue
+}
+
 
 /* first article */
 .first-article
@@ -130,7 +136,7 @@ figure img
     width: 100%;
 }
 
-.second-section button
+section button
 {
     border-radius: 50px;
     padding: 10px 15px;
@@ -157,12 +163,11 @@ figure img
 
 .third-section .col:hover .blue-hr
 {
-    display: block;
+    border: 2px solid blue;
 }
 .blue-hr
 {
-    display: none;
-    border: 2px solid navy;
+    border: 2px solid white;
     opacity: 1;
 }
 
@@ -214,11 +219,11 @@ figure img
     color: white;
 }
 
-
 .four-section h2, .four-section h1
 {
     padding-top: 20px;
 }
+
 .four-section .col
 {
     margin: auto;
@@ -230,6 +235,7 @@ figure img
     width: 100%;
     border-radius: 30px;
 }
+
 .four-section .row
 {
     margin: auto;
@@ -238,3 +244,20 @@ figure img
 }
 
 /*  */
+
+section img
+{
+    width: 100%;
+}
+
+/*  */
+
+.four-article .row
+{
+    align-items:center;
+}
+
+article img
+{
+    width: 100%;
+}
