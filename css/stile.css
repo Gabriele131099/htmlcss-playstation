@@ -73,7 +73,7 @@
     color: white;
     padding: 10px 15px;
     background-color: tomato;
-    border: 1px solid white;
+    border: none;
     border-radius: 50px;
 }
 
@@ -212,7 +212,7 @@ hr
     color: white;
     padding: 10px 15px;
     background-color: tomato;
-    border: 1px solid white;
+    border: none;
     border-radius: 50px;
 }
 
@@ -389,9 +389,34 @@ footer .menu
     justify-content: center;
     align-items: stretch;
     padding-top: 100px;
+    line-height: 30px;
 }
 
 footer 
 {
     padding: 40px 40px 0px 40px;
+}
+
+/* dettagli */
+
+.four-section span, .third-section span 
+{
+    font-size: 8px;
+    vertical-align: text-top;
+}
+
+.first-article span
+{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0px 3px ;
+    font-size: 8px;
+    vertical-align:super;
+    font-weight: bold;
+
+}
+
+.padding img, .padding div
+{
+    padding-bottom: 20px;
 }
