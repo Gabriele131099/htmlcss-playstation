@@ -358,6 +358,12 @@ article img
         
     }
 
+    footer .menu
+    {
+        flex-wrap: wrap ;
+        padding-bottom: 50px;
+    }
+
 }
 
 /* Social */
@@ -381,4 +387,9 @@ footer .menu
     justify-content: center;
     align-items: stretch;
     padding-top: 100px;
+}
+
+footer 
+{
+    padding: 40px 40px 0px 40px;
 }
