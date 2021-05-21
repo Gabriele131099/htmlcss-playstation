@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
 }
+
+.margin-bottom
+{
+    margin-bottom: 50px;
+}
 .first-nav
 {
     padding: 20px;
@@ -88,10 +93,15 @@
 {
     width: 100%;
     border-radius: 50px;
-    margin: 15px 0px;
     border: 2px solid transparent;
 }
-.figure img:hover
+.figure a
+{
+    display: block;
+    border-radius: 50px;
+    padding: 0%;
+}
+.figure a:focus
 {
     border:2px solid lightskyblue
 }
@@ -150,25 +160,36 @@ section button
 {
      padding: 50px;
      text-align: center;
-     opacity: 0.5;
 }
-.row .col img
+.third-section a:focus img
 {
     width: 100%;
+    opacity: 1;
 }
-.third-section .col:hover
+.third-section a
 {
-     opacity: 1;
+    text-decoration: none;
+    color: black;
 }
+.third-section img
+{
+    opacity: 0.5;
 
-.third-section .col:hover .blue-hr
+}
+.third-section a:focus hr
 {
     border: 2px solid blue;
+    opacity: 1;
+    display: block;
+
 }
-.blue-hr
+hr
 {
     border: 2px solid white;
-    opacity: 1;
+    background-color: white;
+    color: white;
+    opacity: 0.5;
+    display: none;
 }
 
 /* second article main */
@@ -250,15 +271,13 @@ section img
 {
     background-color: grey;
     align-items: center;
-}
-.four-article .col-12
-{
-    padding: 50px;
+    justify-content: space-between;
 }
 
+
 article img
-{ 
-    width: 60%;
+{
+    width: 100%;
 }
 
 .four-article button
@@ -288,15 +307,16 @@ figure img
 {
     background-color: rgb(58, 58, 143);
     align-items: center;
+
 }
-.five-article .col-6
-{
-    padding-left: 50px;
+ul{
+    list-style-type: none;
+    
 }
 
 article img
 { 
-    width: 60%;
+    
 }
 
 .five-article button
@@ -310,24 +330,32 @@ article img
 {
     color: white;
 }
-.five-article .col-12
-{
-    padding: 50px;
-}
 .five-article .sparisci
 {
     display: none;
 }
 
-@media all and (min-width:700px) {
-    .five-article .sparisci
+@media all and (min-width:768px) {
+    .five-article .sparisci ,.four-article .sparisci
     {
         display: block;
+        
+    }
+    .five-article .col-12 ,.four-article .col-12
+    {
+        padding: 0px 20px;
+
+        
     }
 
-    .four-article .sparisci
+}
+
+@media all and (max-width:766px)
+{
+    .five-article .col-12 ,.four-article .col-12
     {
-        display: block;
+        padding: 20px;
+        
     }
 
 }
@@ -337,4 +365,20 @@ article img
 .five-section
 {
     justify-content: center;
+}
+
+/* footer */
+
+footer
+{
+    background-color: blue;
+    color: white;
+}
+
+footer .menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 100px;
 }
