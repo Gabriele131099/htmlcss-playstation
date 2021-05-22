@@ -177,20 +177,19 @@ section button
     opacity: 0.5;
 
 }
-.third-section a:focus hr
+.third-section .col a:focus hr
 {
     border: 2px solid blue;
     opacity: 1;
-    display: block;
-
+    height: 1px;
 }
-hr
+.third-section .col a hr
 {
     border: 2px solid white;
     background-color: white;
     color: white;
     opacity: 0.5;
-    display: none;
+    height: 0px;
 }
 
 /* second article main */
@@ -319,7 +318,7 @@ ul{
 
 article img
 { 
-    
+    width: 100%;
 }
 
 .five-article button
@@ -365,8 +364,20 @@ article img
     {
         flex-wrap: wrap ;
         padding-bottom: 50px;
+
     }
 
+}
+@media all and (max-width: 1050px) 
+{
+
+    .third-section .col a:hover hr
+    {
+        border: 2px solid blue;
+        opacity: 1;
+        height: 1px;
+    }
+    
 }
 
 /* Social */
