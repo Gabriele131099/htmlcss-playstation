@@ -437,3 +437,10 @@ button:hover
 {
     border: 1px solid transparent;
 }
+
+.position-stick
+{
+    position: sticky !important;
+    z-index: 1001;
+    top: 0px;
+}
