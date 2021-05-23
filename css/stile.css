@@ -162,7 +162,7 @@ section button
      padding: 50px;
      text-align: center;
 }
-.third-section a:focus img
+.third-section a:focus
 {
     width: 100%;
     opacity: 1;
