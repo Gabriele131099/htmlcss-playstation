@@ -40,7 +40,12 @@
     padding-left: 10px;
 }
 
-
+.position-stick
+{
+    position: sticky !important;
+    z-index: 1001;
+    top: 0px;
+}
 
 /* main section 1 */
 .first-section
@@ -330,7 +335,7 @@ article img
     display: none;
 }
 
-/* media query  */
+/* media query */
 @media all and (min-width:768px) {
     .five-article .sparisci ,.four-article .sparisci
     {
@@ -431,6 +436,8 @@ button:hover
 {
     border: 1px solid transparent;
 }
+
+
 
 .p
 {
