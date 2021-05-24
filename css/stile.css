@@ -40,12 +40,12 @@
     padding-left: 10px;
 }
 
-.position-stick
-{
-    position: sticky !important;
+.navbar {
+    position:sticky;
+    top: 0;
     z-index: 1001;
-    top: 0px;
-}
+    
+  }
 
 /* main section 1 */
 .first-section
