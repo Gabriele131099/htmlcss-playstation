@@ -1,3 +1,3 @@
 document.getElementById('saluta').innerHTML="Hello World";
-alert("Compra la tua nonna virtuale senza dentiera");
+alert("compra la tua playstation 5");
 console.log("Codice segreto");
